@@ -7,7 +7,18 @@ const openai = new OpenAi({
 });
 
 function Chatbot() {
-    // Components Loginc will go here
+const [userInput, setUserInput] = useState('');
+const [chatHistoory, setChatHistory] = useState ([]);
+async function sendMessage() {
+    // code to send messages to the chatbot here
+}
+// JSX for rendering the chat inerface here
+
+return (
+    <div>
+        {/* JSX for the chat interface */}
+    </div>
+);
 }
 
 export default Chatbot;
